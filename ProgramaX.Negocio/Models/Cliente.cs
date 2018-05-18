@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ProgramaX.Negocio.Models
 {
-    class Cliente
+    public class Cliente
     {
+        
     }
 }

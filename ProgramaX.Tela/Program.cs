@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProgramaX.Negocio.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,7 @@ namespace ProgramaX.Tela
     {
         static void Main(string[] args)
         {
+            Cliente cliente = new Cliente();
         }
     }
 }
