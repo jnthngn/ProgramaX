@@ -4,16 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AD501927-8D97-48AC-8735-53C454277603}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>ProgramaX.Tela</RootNamespace>
-    <AssemblyName>ProgramaX.Tela</AssemblyName>
+    <ProjectGuid>{173086E7-0BB8-4631-B2FE-BDA83A0C375B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProgramaX.Negocio</RootNamespace>
+    <AssemblyName>ProgramaX.Negocio</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -42,16 +40,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ProgramaX.Negocio\ProgramaX.Negocio.csproj">
-      <Project>{173086e7-0bb8-4631-b2fe-bda83a0c375b}</Project>
-      <Name>ProgramaX.Negocio</Name>
+    <ProjectReference Include="..\ProgramaX.Persistencia\ProgramaX.Persistencia.csproj">
+      <Project>{0f615329-49ee-4ddb-a90b-9a15c4f2f7a7}</Project>
+      <Name>ProgramaX.Persistencia</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

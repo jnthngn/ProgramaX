@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgramaX.Tela", "ProgramaX.Tela\ProgramaX.Tela.csproj", "{AD501927-8D97-48AC-8735-53C454277603}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgramaX.Negocio", "ProgramaX.Negocio\ProgramaX.Negocio.csproj", "{173086E7-0BB8-4631-B2FE-BDA83A0C375B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgramaX.Persistencia", "ProgramaX.Persistencia\ProgramaX.Persistencia.csproj", "{0F615329-49EE-4DDB-A90B-9A15C4F2F7A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{AD501927-8D97-48AC-8735-53C454277603}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD501927-8D97-48AC-8735-53C454277603}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD501927-8D97-48AC-8735-53C454277603}.Release|Any CPU.Build.0 = Release|Any CPU
+		{173086E7-0BB8-4631-B2FE-BDA83A0C375B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{173086E7-0BB8-4631-B2FE-BDA83A0C375B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{173086E7-0BB8-4631-B2FE-BDA83A0C375B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{173086E7-0BB8-4631-B2FE-BDA83A0C375B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F615329-49EE-4DDB-A90B-9A15C4F2F7A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F615329-49EE-4DDB-A90B-9A15C4F2F7A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F615329-49EE-4DDB-A90B-9A15C4F2F7A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F615329-49EE-4DDB-A90B-9A15C4F2F7A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
