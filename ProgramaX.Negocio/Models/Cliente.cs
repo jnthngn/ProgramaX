@@ -8,6 +8,9 @@ namespace ProgramaX.Negocio.Models
 {
     public class Cliente
     {
+        public long id { get; set; }
+        public string nome { get; set; }
         
+
     }
 }
